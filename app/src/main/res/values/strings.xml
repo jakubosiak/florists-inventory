@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Flower Shop</string>
+    <string name="details_activity_edit">Edit Flower</string>
+    <string name="details_activity_add">Add Flower</string>
+
+    <!-- Empty View's text -->
+    <string name="empty_view">Add some flowers to inventory...</string>
+    
+    <!-- toast messages -->
+    <string name="add_name_and_price">Fill name and price to add data to database</string>
+    <string name="sold_button_if_0">Product out of order</string>
+
+    <!-- details_layout strings -->
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="occasion">Occasion</string>
+    <string name="quantity">Quantity</string>
+
+    <!-- list_item layout strings-->
+    <string name="quantity_list_item">Quantity:\u0020</string>
+    <string name="price_list_item">Price:\u0020</string>
+    <string name="quantity_button">-1 QTY</string>
+
+    <!-- menu title strings -->
+    <string name="insert_custom_data">Insert Custom Data</string>
+    <string name="delete_all_data">Delete All Data</string>
+
+    <!-- Spinner's values -->
+    <string name="type_unknown">Unknown</string>
+    <string name="type_birthday">Birthday</string>
+    <string name="type_wedding">Wedding</string>
+    <string name="type_funeral">Funeral</string>
+
+    <!-- custom flower name-->
+    <string name="custom_flower_name">Tulips</string>
+
+    <!-- PreferenceScreen keys -->
+    <string name="order_by_key" translatable="false">order_by</string>
+    <string name="currency_key" translatable="false">currency</string>
+    <string name="sale_price_key" translatable="false">sale_price</string>
+
+    <!-- PreferenceScreen titles -->
+    <string name="order_by_title">Order By</string>
+    <string name="currency_title">Currency</string>
+    <string name="sale_price_title">Sale</string>
+
+    <!-- PreferenceScreen default values -->
+    <string name="order_by_defaultValue">@string/order_by_added_date_value</string>
+    <string name="currency_defaultValue">@string/currency_dollar</string>
+    <string name="sale_price_defaultValue">0</string>
+
+    <!-- PreferenceScreen entries for order_by ListPreference -->
+    <string name="order_by_added_date">Date added</string>
+    <string name="order_by_name">Name</string>
+    <string name="order_by_price_hl">Price High-Low</string>
+    <string name="order_by_price_lh">Price Low-High</string>
+    <string name="order_by_quantity_hl">Quantity High-Low</string>
+    <string name="order_by_quantity_lh">Quantity Low-High</string>
+
+    <!-- PreferenceScreen values for order_by ListPreference -->
+    <string name="order_by_added_date_value" translatable="false">_id</string>
+    <string name="order_by_name_value" translatable="false">name</string>
+    <string name="order_by_price_hl_value" translatable="false">price DESC</string>
+    <string name="order_by_price_lh_value" translatable="false">price ASC</string>
+    <string name="order_by_quantity_hl_value" translatable="false">quantity DESC</string>
+    <string name="order_by_quantity_lh_value" translatable="false">quantity ASC</string>
+
+    <!-- PreferenceScreen entries/values for currency ListPreference -->
+    <string name="currency_dollar">$</string>
+    <string name="currency_euro">€</string>
+    <string name="currency_pln" translatable="false">PLN</string>
+
+    <!-- delete all entries - alert dialog strings-->
+    <string name="delete_entries_message">Do you want to delete all entries from database?</string>
+    <string name="delete_entries_positive">Delete</string>
+    <string name="delete_entries_negative">Cancel</string>
+
+    <!-- delete one row from database table - alert dialog strings -->
+    <string name="delete_row_message">Do you want to delete this flower from database?</string>
+    <string name="delete_row_positive">Delete</string>
+    <string name="delete_row_negative">Cancel</string>
+
+    <!-- changes not saved - alert dialog strings -->
+    <string name="changes_not_saved_message">Do you want to go back to main catalog without saving changes?</string>
+    <string name="changes_not_saved_positive">Yes</string>
+    <string name="changes_not_saved_negative">No</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="flowers_type_spinner">
+        <item>@string/type_unknown</item>
+        <item>@string/type_birthday</item>
+        <item>@string/type_wedding</item>
+        <item>@string/type_funeral</item>
+    </string-array>
+
+    <string-array name="order_by_entries">
+        <item>@string/order_by_added_date</item>
+        <item>@string/order_by_name</item>
+        <item>@string/order_by_price_hl</item>
+        <item>@string/order_by_price_lh</item>
+        <item>@string/order_by_quantity_hl</item>
+        <item>@string/order_by_quantity_lh</item>
+    </string-array>
+
+    <string-array name="order_by_values">
+        <item>@string/order_by_added_date_value</item>
+        <item>@string/order_by_name_value</item>
+        <item>@string/order_by_price_hl_value</item>
+        <item>@string/order_by_price_lh_value</item>
+        <item>@string/order_by_quantity_hl_value</item>
+        <item>@string/order_by_quantity_lh_value</item>
+    </string-array>
+
+    <string-array name="currency_entries">
+        <item>@string/currency_dollar</item>
+        <item>@string/currency_euro</item>
+        <item>@string/currency_pln</item>
+    </string-array>
+
+    <string-array name="currency_values">
+        <item>@string/currency_dollar</item>
+        <item>@string/currency_euro</item>
+        <item>@string/currency_pln</item>
+    </string-array>
+
+    <!-- delete all entries (dialog alert) -->
+    <string-array name="delete_all_entries">
+        <item>@string/delete_entries_message</item>
+        <item>@string/delete_entries_positive</item>
+        <item>@string/delete_entries_negative</item>
+    </string-array>
+
+    <!-- delete one row from table (dialog alert) -->
+    <string-array name="delete_row">
+        <item>@string/delete_row_message</item>
+        <item>@string/delete_row_positive</item>
+        <item>@string/delete_row_negative</item>
+    </string-array>
+
+    <!-- changes not saved (dialog alert) -->
+    <string-array name="changes_not_saved">
+        <item>@string/changes_not_saved_message</item>
+        <item>@string/changes_not_saved_positive</item>
+        <item>@string/changes_not_saved_negative</item>
+    </string-array>
+</resources>

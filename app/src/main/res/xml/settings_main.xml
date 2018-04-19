@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+
+    <ListPreference
+        android:defaultValue="@string/order_by_defaultValue"
+        android:entries="@array/order_by_entries"
+        android:entryValues="@array/order_by_values"
+        android:key="@string/order_by_key"
+        android:title="@string/order_by_title" />
+
+    <ListPreference
+        android:defaultValue="@string/currency_defaultValue"
+        android:entries="@array/currency_entries"
+        android:entryValues="@array/currency_values"
+        android:key="@string/currency_key"
+        android:title="@string/currency_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/sale_price_defaultValue"
+        android:inputType="number"
+        android:key="@string/sale_price_key"
+        android:title="@string/sale_price_title" />
+
+</PreferenceScreen>
